@@ -1,41 +1,43 @@
 # GeoNews · 街闻
 
-把 GeoGuessr 社区的新闻与趣闻，整理剪辑成 3–5 分钟的横屏视频。
+English | [简体中文](README.zh.md)
 
-**硬约束：只用当期提供的素材，不额外生成任何视频或图片。** 配音由创作者自己录。
+A workflow for turning GeoGuessr community news and curiosities into 3–5 minute landscape videos.
 
----
-
-## 流程
-
-三个阶段：
-
-1. **素材与叙事** —— 写新闻、陆续给素材；同时归类、排叙事、记录还缺什么
-2. **拼装** —— 按叙事填段落表，先出预览，确认后出正式成片
-3. **完善** —— 按反馈改，改哪段只重渲哪段
-
-素材可以边写边给，不需要等归类定稿。
+**Hard rule: only the materials provided for the episode are used — no video or images are generated.** Narration is recorded by the creator.
 
 ---
 
-## 目录
+## Process
 
-每期一个文件夹，按月日命名，互不覆盖。里面放素材输入、归类叙事、素材进度、拼装脚本、素材和产出。
+Three stages:
 
-其余是共用的：片头片尾、转场、品牌标识、字体、素材体检与底栏工具，以及新一期模板。
+1. **Research and narrative** — collect news and footage, group the stories, plan the order, track what is still missing
+2. **Assembly** — fill in the segment table, render a preview, then the final cut
+3. **Refinement** — revise from feedback; re-render only the segments that changed
 
----
-
-## 每期交付
-
-成片（干净版）、片头、片尾、底栏叠加层、封面。
+Footage can arrive at any time; it does not need to wait for the narrative to be finalized.
 
 ---
 
-## 从哪读
+## Layout
 
-- 流程、硬规矩、收尾：**[WORKFLOW.md](WORKFLOW.md)**
-- 拼装与渲染细节：`templates/README.md`
-- 素材体检与底栏：`tools/README.md`
-- 转场、品牌、片尾：各自目录的 README
-- 社区投稿：**[投稿指南.md](投稿指南.md)**
+One folder per episode, named by date, never overwriting each other. Each holds the material input, narrative notes, progress list, assembly script, source footage, and output.
+
+Everything else is shared: intro and outro generators, transitions, brand assets, fonts, material checks, ticker tools, and the template for a new episode.
+
+---
+
+## Deliverables
+
+Clean final cut, intro, outro, ticker overlay with alpha channel, cover image.
+
+---
+
+## Where to read
+
+- Process, hard rules, wrap-up: **[WORKFLOW.md](WORKFLOW.md)**
+- Assembly and rendering details: `templates/README.md`
+- Material checks and ticker: `tools/README.md`
+- Transitions, brand, outro: each directory's own README
+- Community submissions: **[投稿指南.md](投稿指南.md)**
